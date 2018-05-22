@@ -15,15 +15,21 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
-  var hiGrandma = "hi, grandma";
+  /*var hiGrandma = "hi, grandma";
+  var helloGrandma = "HI, GRANDMA";
+  var loveGranny = "I love you, Grandma.";*/
   if (hiGrandma.toLowerCase() === hiGrandma) {
     return "I can't hear you!";
+  } else if (hiGrandma.toUpperCase() === hiGrandma) {
+    return "YES INDEED!";
+  } else if (hiGrandma === "I love you, Grandma.") {
+    return "I love you, too.";
   }
 }
 
-function sayHiToGrandma(string) {
-  var hiGrandma = "HI, GRANDMA";
-  if (hiGrandma.toUpperCase() === hiGrandma) {
+/*function sayHiToGrandma(string) {
+  var helloGrandma = "HI, GRANDMA";
+  if (helloGrandma.toUpperCase() === helloGrandma) {
     return "YES INDEED!";
   }
 }
@@ -33,4 +39,4 @@ function sayHiToGrandma(string) {
   if (loveGranny === "I love you, Grandma.") {
     return "I love you, too."
   }
-}
+}*/
