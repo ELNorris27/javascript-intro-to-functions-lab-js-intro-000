@@ -25,7 +25,7 @@ function sayHiToGrandma(string) {
   } else if (hiGrandma === "I love you, Grandma.") {
     return "I love you, too.";
   }
-}
+};
 
 /*function sayHiToGrandma(string) {
   var helloGrandma = "HI, GRANDMA";
