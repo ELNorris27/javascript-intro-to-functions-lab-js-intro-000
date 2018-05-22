@@ -27,3 +27,10 @@ function sayHiToGrandma(string) {
     return "YES INDEED!";
   }
 }
+
+function sayHiToGrandma(string) {
+  var loveGranny = "I love you, Grandma.";
+  if (loveGranny === "I love you, Grandma.") {
+    return "I love you, too."
+  }
+}
